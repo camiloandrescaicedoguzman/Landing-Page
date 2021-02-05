@@ -1,0 +1,173 @@
+body {
+    background-color: whitesmoke;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    margin: 0;
+    width: 100%;
+}
+
+#header {
+    height: 100px;
+}
+
+#header-img {
+    width: 30%;
+    margin-left: 40px;
+}
+
+#nav-bar {
+    float: right;
+    position: fixed;
+    background-color: whitesmoke;   
+    width: 100%; 
+}
+
+nav ul {
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    vertical-align: middle;
+    list-style: none;
+    font: 12px;
+    margin-left: 70px;
+}
+
+.nav-link {
+    color: black;
+    text-decoration: none;    
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 60px;
+}
+
+#email {
+    width: 70%;
+    font-size: 16px;
+}
+
+#submit {
+    margin: 10px;
+    background-color: chartreuse;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#video {
+    padding: 60px;
+    border: none;
+}
+
+#features {
+    width: 60%;
+}
+
+#features p {
+    margin-top: -15px;
+}
+
+#products {
+    width: 60%;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#products article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid;
+    width: 30%;
+}
+
+#products h3 {
+    background-color: #E0D9D9;
+    width: 100%;
+    margin-top: 0;
+    padding: 10px 0 10px 0;
+    text-align: center;
+}
+
+#products p {
+    font-weight: bolder;
+}
+
+#products ul {
+    padding: 0;
+}
+
+#products li {
+    list-style: none;
+}
+
+footer {
+    background-color: #E0D9D9;
+    margin: 60px 140px 0 140px;
+    text-align: center;
+}
+
+#nav-footer p {
+    padding-top: 10px;
+}
+
+#nav-footer ul {
+    padding: 0;
+    margin-top: -15px;
+}
+
+#nav-footer li {
+    margin: 10px;
+}
+
+#nav-footer a {
+    text-decoration: none;
+    color: black;
+}
+
+
+@media (max-width: 700px) {
+    #title {
+        text-align: center;
+    }
+
+    nav li {
+        display: block;
+        text-align: center;
+    }
+
+    #header-image {
+        margin-left: 0px;
+    }
+    
+    nav li {
+        margin-left: 0px;
+    }
+
+    #products {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #products article {
+        width: 80%;
+        margin-bottom: 10px;
+    }
+
+}
